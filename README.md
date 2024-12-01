@@ -8,6 +8,8 @@
 
 # Snow Fall
 
+![Banner for "Snow Fall"](https://github.com/felixarntz/snow-fall/blob/main/.wordpress-org/banner-1544x500.png?raw=true)
+
 This plugin adds a subtle snow fall effect to your website, using the lightweight `<snow-fall>` JavaScript web component by [Zach Leatherman](https://www.zachleat.com).
 
 * [Learn more about the `<snow-fall>` component](https://www.zachleat.com/web/snow-fall)
@@ -16,6 +18,8 @@ This plugin adds a subtle snow fall effect to your website, using the lightweigh
 The plugin takes a no-frills, zero-config approach - you simply activate the plugin, and it just works - thanks to the excellent underlying web component implementation. There should be no notable adverse effects on performance, also given the plugin uses the [WordPress Script Modules API](https://make.wordpress.org/core/2024/03/04/script-modules-in-6-5/) that was introduced in WordPress 6.5.
 
 The plugin respects user preferences for reduced motion, as a best practice for accessibility.
+
+Additional credit: [Banner image by Adam Chang](https://unsplash.com/photos/snow-field-and-green-pine-trees-during-daytime-IWenq-4JHqo)
 
 ## Installation and usage
 
