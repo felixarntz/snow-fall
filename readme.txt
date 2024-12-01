@@ -1,6 +1,6 @@
 === Snow Fall ===
 
-Plugin Name:    Snow Fall
+Plugin Name:  Snow Fall
 Plugin URI:   https://wordpress.org/plugins/snow-fall/
 Author:       Felix Arntz
 Author URI:   https://felix-arntz.me
