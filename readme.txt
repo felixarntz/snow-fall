@@ -21,7 +21,7 @@ This plugin adds a subtle snow fall effect to your website, using the lightweigh
 * [Learn more about the `<snow-fall>` component](https://www.zachleat.com/web/snow-fall)
 * [Demo of the `<snow-fall>` component](https://zachleat.github.io/snow-fall/demo.html)
 
-The plugin takes a no-frills, zero-config approach - you simply activate the plugin, and it just works - thanks to the excellent underlying web component implementation.
+The plugin takes a no-frills, zero-config approach - you simply activate the plugin, and it just works - thanks to the excellent underlying web component implementation. There should be no notable adverse effects on performance, also given the plugin uses the [WordPress Script Modules API](https://make.wordpress.org/core/2024/03/04/script-modules-in-6-5/) that was introduced in WordPress 6.5.
 
 The plugin respects user preferences for reduced motion, as a best practice for accessibility.
 
