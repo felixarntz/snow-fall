@@ -7,7 +7,7 @@ Author URI:   https://felix-arntz.me
 Contributors: flixos90
 Donate link:  https://felix-arntz.me/wordpress-plugins/
 Tested up to: 6.7
-Stable tag:   1.0.0
+Stable tag:   1.0.0-RC
 License:      GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Tags:         snow, winter, lightweight, subtle, web component
@@ -62,5 +62,6 @@ You can also contribute to the plugin by translating it. Simply visit [translate
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial release
+= 1.0.0-RC =
+
+* Initial release candidate.
