@@ -27,6 +27,12 @@ The plugin respects user preferences for reduced motion, as a best practice for 
 
 Additional credit: [Banner image by Adam Chang](https://unsplash.com/photos/snow-field-and-green-pine-trees-during-daytime-IWenq-4JHqo)
 
+= License =
+
+The Snow Fall plugin is [licensed under the GPLv2 (or later)](https://www.gnu.org/licenses/gpl-2.0.html).
+
+The `<snow-fall>` and `<is-land>` web components are [licensed under the MIT license](https://opensource.org/license/mit).
+
 == Installation ==
 
 1. Upload the entire `snow-fall` folder to the `/wp-content/plugins/` directory or download it through the WordPress backend.

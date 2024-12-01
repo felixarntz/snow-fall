@@ -34,3 +34,9 @@ composer require felixarntz/snow-fall:^1.0
 If you have ideas to improve the plugin or to solve a bug, feel free to raise an issue or submit a pull request right here on GitHub. Please refer to the [contributing guidelines](https://github.com/felixarntz/snow-fall/blob/main/CONTRIBUTING.md) to learn more and get started.
 
 You can also contribute to the plugin by translating it. Simply visit [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/snow-fall) to get started.
+
+## License
+
+The Snow Fall plugin is [licensed under the GPLv2 (or later)](https://www.gnu.org/licenses/gpl-2.0.html).
+
+The `<snow-fall>` and `<is-land>` web components are [licensed under the MIT license](https://opensource.org/license/mit).
