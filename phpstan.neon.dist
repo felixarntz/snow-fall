@@ -1,0 +1,8 @@
+includes:
+	- phar://phpstan.phar/conf/bleedingEdge.neon
+parameters:
+	level: 6
+	paths:
+		- snow-fall.php
+	scanFiles:
+		- build-cs/wp-stubs.php

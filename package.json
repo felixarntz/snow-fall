@@ -1,0 +1,43 @@
+{
+  "name": "snow-fall",
+  "description": "Adds a subtle snow fall effect to your website, using a lightweight web component.",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "snow",
+    "winter",
+    "lightweight",
+    "subtle",
+    "web component"
+  ],
+  "homepage": "https://wordpress.org/plugins/snow-fall/",
+  "author": {
+    "name": "Felix Arntz",
+    "email": "hello@felix-arntz.me",
+    "url": "https://felix-arntz.me"
+  },
+  "repository": "git+https://github.com/felixarntz/snow-fall.git",
+  "dependencies": {
+    "@11ty/is-land": "^4.0.0",
+    "@zachleat/snow-fall": "^1.0.0"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.13.0",
+    "@wordpress/scripts": "^30.6.0",
+		"copy-webpack-plugin": "^10.2.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "format-js": "wp-scripts format",
+    "format-php": "wp-env run cli --env-cwd=wp-content/plugins/$(basename $(pwd)) composer format",
+    "phpstan": "wp-env run cli --env-cwd=wp-content/plugins/$(basename $(pwd)) composer phpstan",
+    "lint-js": "wp-scripts lint-js",
+    "lint-php": "wp-env run cli --env-cwd=wp-content/plugins/$(basename $(pwd)) composer lint",
+    "pretest-php": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename $(pwd)) composer update",
+    "test-php": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename $(pwd)) vendor/bin/phpunit -c phpunit.xml.dist --verbose",
+    "pretest-php-multisite": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename $(pwd)) composer update",
+    "test-php-multisite": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename $(pwd)) vendor/bin/phpunit -c tests/phpunit/multisite.xml --verbose",
+    "wp-env": "wp-env"
+  }
+}

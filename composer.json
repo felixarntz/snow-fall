@@ -1,0 +1,57 @@
+{
+  "name": "felixarntz/snow-fall",
+  "description": "Adds a subtle snow fall effect to your website, using a lightweight web component.",
+  "license": "GPL-2.0-or-later",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "snow",
+    "winter",
+    "lightweight",
+    "subtle",
+    "web component"
+  ],
+  "homepage": "https://wordpress.org/plugins/snow-fall/",
+  "authors": [
+    {
+      "name": "Felix Arntz",
+      "email": "hello@felix-arntz.me",
+      "homepage": "https://felix-arntz.me",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "hello@felix-arntz.me",
+    "issues": "https://github.com/felixarntz/snow-fall/issues"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "wp-phpunit/wp-phpunit": "^6.5",
+    "yoast/phpunit-polyfills": "^1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "scripts": {
+    "format": [
+      "composer --working-dir=build-cs install",
+      "build-cs/vendor/bin/phpcbf --standard=phpcs.xml.dist"
+    ],
+    "lint": [
+      "composer --working-dir=build-cs install",
+      "build-cs/vendor/bin/phpcs --standard=phpcs.xml.dist"
+    ],
+    "phpstan": [
+      "composer --working-dir=build-cs install",
+      "build-cs/vendor/bin/phpstan analyse --memory-limit=2048M"
+    ],
+    "test": "phpunit -c phpunit.xml.dist --verbose",
+    "test-multisite": "WP_MULTISITE=1 phpunit -c tests/phpunit/multisite.xml --verbose"
+  }
+}
