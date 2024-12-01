@@ -7,7 +7,7 @@ Author URI:   https://felix-arntz.me
 Contributors: flixos90
 Donate link:  https://felix-arntz.me/wordpress-plugins/
 Tested up to: 6.7
-Stable tag:   1.0.0-RC
+Stable tag:   1.0.0
 License:      GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Tags:         snow, winter, lightweight, subtle, web component
@@ -61,6 +61,10 @@ If you have ideas to improve the plugin or to solve a bug, feel free to raise an
 You can also contribute to the plugin by translating it. Simply visit [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/snow-fall) to get started.
 
 == Changelog ==
+
+= 1.0.0 =
+
+* Initial stable release on wordpress.org.
 
 = 1.0.0-RC =
 
