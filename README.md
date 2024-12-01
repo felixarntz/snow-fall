@@ -1,6 +1,7 @@
 [![PHP Unit Testing](https://img.shields.io/github/actions/workflow/status/felixarntz/snow-fall/php-test.yml?style=for-the-badge&label=PHP%20Unit%20Testing)](https://github.com/felixarntz/snow-fall/actions/workflows/php-test.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/felixarntz/snow-fall?style=for-the-badge)](https://app.codecov.io/github/felixarntz/snow-fall)
 [![Packagist version](https://img.shields.io/packagist/v/felixarntz/snow-fall?style=for-the-badge)](https://packagist.org/packages/felixarntz/snow-fall)
+[![Packagist license](https://img.shields.io/packagist/l/felixarntz/snow-fall?style=for-the-badge)](https://packagist.org/packages/felixarntz/snow-fall)
 [![WordPress plugin version](https://img.shields.io/wordpress/plugin/v/snow-fall?style=for-the-badge)](https://wordpress.org/plugins/snow-fall/)
 [![WordPress tested version](https://img.shields.io/wordpress/plugin/tested/snow-fall?style=for-the-badge)](https://wordpress.org/plugins/snow-fall/)
 [![WordPress plugin downloads](https://img.shields.io/wordpress/plugin/dt/snow-fall?style=for-the-badge)](https://wordpress.org/plugins/snow-fall/)
