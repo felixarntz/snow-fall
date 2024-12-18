@@ -44,3 +44,7 @@ You can also contribute to the plugin by translating it. Simply visit [translate
 The Snow Fall plugin is [licensed under the GPLv2 (or later)](https://www.gnu.org/licenses/gpl-2.0.html).
 
 The `<snow-fall>` and `<is-land>` web components are [licensed under the MIT license](https://opensource.org/license/mit).
+
+See their source code on GitHub:
+* [`zachleat/snow-fall`](https://github.com/zachleat/snow-fall)
+* [`11ty/is-land`](https://github.com/11ty/is-land)
