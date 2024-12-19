@@ -17,7 +17,7 @@
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: snow-fall
- * Tags: snow, winter, lightweight, subtle, web component
+ * Tags: falling snow, winter, christmas, holiday, lightweight
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
