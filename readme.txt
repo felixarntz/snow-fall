@@ -70,7 +70,7 @@ You can also contribute to the plugin by translating it. Simply visit [translate
 = 1.0.1 =
 
 * Fix reduced motion preference not working due to loading order.
-* Update to snow-fall 1.0.3.
+* Update to `snow-fall` web component to 1.0.3.
 
 = 1.0.0 =
 
