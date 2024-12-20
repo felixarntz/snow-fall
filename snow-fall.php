@@ -31,19 +31,19 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function snow_fall_register_script_modules(): void {
 	wp_register_script_module(
-		'snow-fall',
-		plugin_dir_url( __FILE__ ) . 'js/snow-fall.js',
-		array(),
-		'1.0.2'
-	);
-	wp_register_script_module(
 		'is-land',
 		plugin_dir_url( __FILE__ ) . 'js/is-land.js',
 		array(),
 		'4.0.0'
 	);
+	wp_register_script_module(
+		'snow-fall',
+		plugin_dir_url( __FILE__ ) . 'js/snow-fall.js',
+		array( 'is-land' ),
+		'1.0.2'
+	);
 }
-add_action( 'init', 'snow_fall_register_script_modules' );
+add_action( 'init', 'snow_fall_register_script_modules', 0 );
 
 /**
  * Enqueues the JavaScript modules.
@@ -68,4 +68,4 @@ function snow_fall_print_web_component(): void {
 	</is-land>
 	<?php
 }
-add_action( 'wp_footer', 'snow_fall_print_web_component' );
+add_action( 'wp_footer', 'snow_fall_print_web_component', 100 );
