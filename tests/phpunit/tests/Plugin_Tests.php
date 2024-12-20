@@ -9,9 +9,9 @@
 class Snow_Fall_Tests extends WP_UnitTestCase {
 
 	public function test_hooks() {
-		$this->assertSame( 10, has_action( 'init', 'snow_fall_register_script_modules' ) );
+		$this->assertSame( 0, has_action( 'init', 'snow_fall_register_script_modules' ) );
 		$this->assertSame( 10, has_action( 'wp_enqueue_scripts', 'snow_fall_enqueue_script_modules' ) );
-		$this->assertSame( 10, has_action( 'wp_footer', 'snow_fall_print_web_component' ) );
+		$this->assertSame( 100, has_action( 'wp_footer', 'snow_fall_print_web_component' ) );
 	}
 
 	public function test_snow_fall_register_script_modules() {
@@ -29,10 +29,10 @@ class Snow_Fall_Tests extends WP_UnitTestCase {
 		$wp_script_modules = $orig_wp_script_modules;
 
 		// Ensure that script modules have been registered but not enqueued.
-		$this->assertArrayHasKey( 'snow-fall', $registered );
 		$this->assertArrayHasKey( 'is-land', $registered );
-		$this->assertFalse( $registered['snow-fall']['enqueue'] );
+		$this->assertArrayHasKey( 'snow-fall', $registered );
 		$this->assertFalse( $registered['is-land']['enqueue'] );
+		$this->assertFalse( $registered['snow-fall']['enqueue'] );
 	}
 
 	public function test_snow_fall_enqueue_script_modules() {
@@ -51,10 +51,10 @@ class Snow_Fall_Tests extends WP_UnitTestCase {
 		$wp_script_modules = $orig_wp_script_modules;
 
 		// Ensure that script modules have been registered but not enqueued.
-		$this->assertArrayHasKey( 'snow-fall', $registered );
 		$this->assertArrayHasKey( 'is-land', $registered );
-		$this->assertTrue( $registered['snow-fall']['enqueue'] );
+		$this->assertArrayHasKey( 'snow-fall', $registered );
 		$this->assertTrue( $registered['is-land']['enqueue'] );
+		$this->assertTrue( $registered['snow-fall']['enqueue'] );
 	}
 
 	public function test_snow_fall_print_web_component() {
