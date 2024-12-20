@@ -51,8 +51,8 @@ add_action( 'init', 'snow_fall_register_script_modules', 0 );
  * @since 1.0.0
  */
 function snow_fall_enqueue_script_modules(): void {
-	wp_enqueue_script_module( 'snow-fall' );
 	wp_enqueue_script_module( 'is-land' );
+	wp_enqueue_script_module( 'snow-fall' );
 }
 add_action( 'wp_enqueue_scripts', 'snow_fall_enqueue_script_modules' );
 
