@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@wordpress/env": "^10.13.0",
-    "@wordpress/scripts": "^30.6.0",
+    "@wordpress/scripts": "^30.14.0",
 		"copy-webpack-plugin": "^10.2.0"
   },
   "scripts": {
