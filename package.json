@@ -18,6 +18,9 @@
     "url": "https://felix-arntz.me"
   },
   "repository": "git+https://github.com/felixarntz/snow-fall.git",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "dependencies": {
     "@11ty/is-land": "^4.0.0",
     "@zachleat/snow-fall": "^1.0.0"
@@ -39,5 +42,6 @@
     "pretest-php-multisite": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename $(pwd)) composer update",
     "test-php-multisite": "wp-env run tests-cli --env-cwd=wp-content/plugins/$(basename $(pwd)) vendor/bin/phpunit -c tests/phpunit/multisite.xml --verbose",
     "wp-env": "wp-env"
-  }
+  },
+  "packageManager": "pnpm@11.1.3"
 }
