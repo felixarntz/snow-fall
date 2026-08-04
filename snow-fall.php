@@ -11,7 +11,7 @@
  * Description: Adds a subtle snow fall effect to your website, using a lightweight web component.
  * Version: 1.0.1
  * Requires at least: 6.5
- * Requires PHP: 7.2
+ * Requires PHP: 7.4
  * Author: Felix Arntz
  * Author URI: https://felix-arntz.me
  * License: GPLv2 or later

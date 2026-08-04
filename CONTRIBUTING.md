@@ -13,7 +13,7 @@ The Snow Fall plugin is [licensed under the GPLv2 (or later)](/license.txt), and
 In general, all code must follow the [WordPress Coding Standards and best practices](https://developer.wordpress.org/coding-standards/). All code must furthermore satisfy the following minimum requirements:
 
 - **WordPress**: The plugin's minimum required WordPress version is 6.5.
-- **PHP**: The plugin's minimum required PHP version is 7.2.
+- **PHP**: The plugin's minimum required PHP version is 7.4.
 
 ## Getting started with code contributions
 
