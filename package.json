@@ -28,7 +28,8 @@
   "devDependencies": {
     "@wordpress/env": "^11.12.0",
     "@wordpress/scripts": "^34.0.0",
-    "copy-webpack-plugin": "^14.0.0"
+    "copy-webpack-plugin": "^14.0.0",
+    "typescript": "npm:@typescript/typescript6@^6.0.2"
   },
   "scripts": {
     "build": "wp-scripts build",
