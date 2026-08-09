@@ -1,7 +1,7 @@
 /.git
 /.github
 /.wordpress-org
-/build-cs
+/tools
 /node_modules
 /tests
 /vendor

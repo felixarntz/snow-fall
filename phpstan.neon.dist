@@ -5,4 +5,4 @@ parameters:
 	paths:
 		- snow-fall.php
 	scanFiles:
-		- build-cs/wp-stubs.php
+		- tools/php/lint/wp-stubs.php
