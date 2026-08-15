@@ -7,7 +7,7 @@ Author URI:   https://felix-arntz.me
 Contributors: flixos90
 Donate link:  https://felix-arntz.me/wordpress-plugins/
 Tested up to: 7.1
-Stable tag:   1.0.1
+Stable tag:   1.0.2
 License:      GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Tags:         falling snow, winter, christmas, holiday, lightweight
@@ -66,6 +66,11 @@ If you have ideas to improve the plugin or to solve a bug, feel free to raise an
 You can also contribute to the plugin by translating it. Simply visit [translate.wordpress.org](https://translate.wordpress.org/projects/wp-plugins/snow-fall) to get started.
 
 == Changelog ==
+
+= 1.0.2 =
+
+* Update dependencies to latest versions, modernize repository setup, use PNPM for JS management.
+* Add E2E test coverage.
 
 = 1.0.1 =
 

@@ -9,7 +9,7 @@
  * Plugin Name: Snow Fall
  * Plugin URI: https://wordpress.org/plugins/snow-fall/
  * Description: Adds a subtle snow fall effect to your website, using a lightweight web component.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Felix Arntz
